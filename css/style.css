@@ -85,6 +85,7 @@ p{ margin: 0 0 1.2em; }
   display:flex;
   align-items:center;
   justify-content:space-between;
+  max-width: none;
 }
 .site-header.is-solid,
 .site-header.no-hero{
