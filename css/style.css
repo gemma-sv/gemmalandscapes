@@ -165,16 +165,19 @@ p{ margin: 0 0 1.2em; }
   background: linear-gradient(0deg, rgba(20,22,15,.62) 0%, rgba(20,22,15,.06) 46%, rgba(20,22,15,.12) 100%);
 }
 .hero-content{
-  position:relative;
+  position:absolute;
+  bottom: 2.5rem;
+  left:0; right:0;
   z-index:2;
-  padding: 0 6vw 7vw;
+  padding: 0 6vw;
   max-width: 900px;
 }
-.hero-content .eyebrow{ color: var(--clay-soft); }
+.hero-content .eyebrow{ color: var(--clay-soft); margin-bottom: 0; }
 .hero-content h1{
   font-size: clamp(2.4rem, 5.4vw, 4.4rem);
   color: var(--white);
   font-weight: 300;
+  margin-left: -0.1em;
 }
 
 
