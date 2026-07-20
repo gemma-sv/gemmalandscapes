@@ -176,14 +176,7 @@ p{ margin: 0 0 1.2em; }
   color: var(--white);
   font-weight: 300;
 }
-.hero-content .lede{
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.25rem;
-  color: #f1ede2;
-  max-width: 46ch;
-  margin-top: .4em;
-}
+
 
 /* Smaller inner-page header (no big hero photo) */
 .page-head{
