@@ -8,11 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap');
 
 :root{
-  --ivory:        #f6f3ec;
-  --ivory-deep:   #efeadf;
+  --ivory:        #d5e6ce;
+  --ivory-deep:   #c5dabe;
   --ink:          #2b2f26;
   --ink-soft:     #4a5040;
-  --moss:         #5c6b4c;
+  --moss:         #7a9265;
   --moss-dark:    #414a37;
   --clay:         #a9744f;
   --clay-soft:    #c99a76;
@@ -77,7 +77,7 @@ p{ margin: 0 0 1.2em; }
   top:0; left:0; right:0;
   z-index: 100;
   padding: 16px 0;
-  background: rgba(246,243,236,.96);
+  background: rgba(213,230,206,.96);
   box-shadow: 0 1px 0 var(--line);
   transition: background .4s ease, padding .4s ease, box-shadow .4s ease;
 }
@@ -89,7 +89,7 @@ p{ margin: 0 0 1.2em; }
 }
 .site-header.is-solid,
 .site-header.no-hero{
-  background: rgba(246,243,236,.96);
+  background: rgba(213,230,206,.96);
   padding: 16px 0;
   box-shadow: 0 1px 0 var(--line);
 }
