@@ -429,6 +429,18 @@ footer .foot-links{ display:flex; gap: 1.6rem; list-style:none; margin:0; paddin
 footer .foot-links a{ font-size: .78rem; letter-spacing: .06em; color: var(--ink-soft); }
 footer .foot-links a:hover{ color: var(--clay); }
 
+.foot-social{
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.foot-social:hover{ color: var(--clay); }
+.foot-social svg{
+  width: .95em;
+  height: .95em;
+  vertical-align: -.12em;
+  margin-right: .3em;
+}
+
 /* ---------- Reveal-on-scroll ---------- */
 .reveal{ opacity:0; transform: translateY(18px); transition: opacity .9s ease, transform .9s ease; }
 .reveal.is-visible{ opacity:1; transform:none; }
