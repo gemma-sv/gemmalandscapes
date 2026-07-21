@@ -264,6 +264,42 @@ section{ padding: 6.5rem 0; }
   margin: 3rem 0;
   line-height: 1.4;
 }
+.pull-attribution{
+  display: block;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: .78rem;
+  letter-spacing: .06em;
+  color: var(--moss);
+  margin-top: 1em;
+  padding-left: 1.4rem;
+  text-transform: uppercase;
+}
+
+.testimonial{
+  background: var(--ivory-deep);
+  border-radius: 4px;
+  padding: 2.5rem clamp(1.5rem, 5vw, 3.5rem);
+  margin: 3rem 0;
+}
+.testimonial p{
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--moss-dark);
+  line-height: 1.5;
+}
+.testimonial p:last-of-type{ margin-bottom: 0; }
+.testimonial-attribution{
+  display: block;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: .78rem;
+  letter-spacing: .06em;
+  color: var(--moss);
+  margin-top: 1.2em;
+  text-transform: uppercase;
+}
 
 /* ---------- Project detail (Auerbach-style meta sidebar) ---------- */
 .project-hero{ height: 68vh; min-height: 420px; }
