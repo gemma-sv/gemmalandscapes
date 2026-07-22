@@ -302,7 +302,6 @@ section{ padding: 6.5rem 0; }
 }
 
 /* ---------- Project detail (Auerbach-style meta sidebar) ---------- */
-.project-hero{ height: 68vh; min-height: 420px; }
 .project-body{
   display:grid;
   grid-template-columns: 260px 1fr;
