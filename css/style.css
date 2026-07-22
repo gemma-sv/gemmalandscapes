@@ -302,11 +302,30 @@ section{ padding: 6.5rem 0; }
 }
 
 /* ---------- Project detail (Auerbach-style meta sidebar) ---------- */
+.project-links{
+  display:flex; flex-wrap:wrap;
+  align-items: center;
+  gap: .6rem 2rem;
+  list-style:none; margin: 1rem 0 0; padding:0;
+}
+.project-links li{ font-size: .85rem; }
+.project-links a{
+  color: var(--ink-soft);
+  border-bottom: 1px solid transparent;
+}
+.project-links a:hover{ color: var(--clay); border-color: var(--clay); }
+.project-links li.current{
+  font-weight: 600;
+  color: var(--clay);
+  border-bottom: 1px solid var(--clay);
+}
+.project-nav-top{ margin: 0 0 1.5rem; }
+.project-nav-top .project-links{ margin-top: 0; }
 .project-body{
   display:grid;
   grid-template-columns: 260px 1fr;
   gap: 5vw;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 .meta-list{
   list-style:none; margin:0; padding:0;
