@@ -354,25 +354,6 @@ section{ padding: 6.5rem 0; }
 .project-copy h2{ font-size: clamp(1.8rem, 2.8vw, 2.4rem); }
 .project-copy p{ font-size: 1.06rem; color: var(--ink-soft); }
 
-.plant-lists{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  margin: 2.5rem 0;
-  padding: 2rem 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-.plant-lists h4{
-  font-family: var(--sans);
-  font-size: .75rem;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: var(--moss);
-  margin-bottom: .8em;
-}
-.plant-lists p{ color: var(--ink-soft); font-size: .98rem; margin:0; }
-
 .gallery{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -492,7 +473,6 @@ footer .foot-links a:hover{ color: var(--clay); }
       "aside"
       "rest";
   }
-  .plant-lists{ grid-template-columns: 1fr; }
   .ba{ grid-template-columns: 1fr; }
   .grid{ grid-template-columns: 1fr; }
   .gallery .wide{ grid-column: span 1; }
