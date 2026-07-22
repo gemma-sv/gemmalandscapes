@@ -94,7 +94,7 @@ p{ margin: 0 0 1.2em; }
   box-shadow: 0 1px 0 var(--line);
 }
 .logo{
-  font-family: var(--serif);
+  font-family: 'Homemade Apple', cursive;
   font-size: 1.5rem;
   letter-spacing: .03em;
   color: var(--ink);
